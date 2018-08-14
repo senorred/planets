@@ -1,15 +1,15 @@
-  BitsPerPixel	8
+ BitsPerPixel	8
  DimensionOrder	XYCZT
  IsInterleaved	false
  IsRGB	false
  LittleEndian	true
  PixelType	uint8
- Series 0 Name	Part2 #1
+ Series 0 Name	Image 2_part2 #1
  SizeC	3
  SizeT	30
  SizeX	512
  SizeY	512
- SizeZ	14
+ SizeZ	13
 Appliance|Data|ShuttleAndFindData|Calibration|Marker|FocusPosition #1	0
 Appliance|Data|ShuttleAndFindData|Calibration|Marker|FocusPosition #2	0
 Appliance|Data|ShuttleAndFindData|Calibration|Marker|FocusPosition #3	0
@@ -35,8 +35,8 @@ DisplaySetting|Channel|ColorMode	Color
 DisplaySetting|Channel|DyeName	FITC
 DisplaySetting|Channel|Gamma	1
 DisplaySetting|Channel|High	1
-DisplaySetting|Channel|Id	172646138012902040534155943566979854906
-DisplaySetting|Channel|IsSelected	true
+DisplaySetting|Channel|Id	3596373331133174604535772172133715851999
+DisplaySetting|Channel|IsSelected	false
 DisplaySetting|Channel|Low	-0
 DisplaySetting|Channel|Name	T PMT-T2
 Experiment|AcquisitionBlock|AcquisitionModeSetup|AcquisitionMode #1	StackFocus
@@ -53,7 +53,7 @@ Experiment|AcquisitionBlock|AcquisitionModeSetup|CameraSuperSampling #1	0
 Experiment|AcquisitionBlock|AcquisitionModeSetup|DimensionT #1	30
 Experiment|AcquisitionBlock|AcquisitionModeSetup|DimensionX #1	512
 Experiment|AcquisitionBlock|AcquisitionModeSetup|DimensionY #1	512
-Experiment|AcquisitionBlock|AcquisitionModeSetup|DimensionZ #1	14
+Experiment|AcquisitionBlock|AcquisitionModeSetup|DimensionZ #1	13
 Experiment|AcquisitionBlock|AcquisitionModeSetup|FilterMethod #1	Average
 Experiment|AcquisitionBlock|AcquisitionModeSetup|FilterMode #1	Line
 Experiment|AcquisitionBlock|AcquisitionModeSetup|FilterSamplingNumber #1	4
@@ -68,10 +68,10 @@ Experiment|AcquisitionBlock|AcquisitionModeSetup|InterpolationY #1	1
 Experiment|AcquisitionBlock|AcquisitionModeSetup|Objective #1	Plan-Apochromat 20x/0.8 M27
 Experiment|AcquisitionBlock|AcquisitionModeSetup|OffsetX #1	0
 Experiment|AcquisitionBlock|AcquisitionModeSetup|OffsetY #1	0
-Experiment|AcquisitionBlock|AcquisitionModeSetup|OffsetZ #1	0
+Experiment|AcquisitionBlock|AcquisitionModeSetup|OffsetZ #1	2.4000000000000001e-005
 Experiment|AcquisitionBlock|AcquisitionModeSetup|PixelPeriod #1	1.2727272727270875e-006
 Experiment|AcquisitionBlock|AcquisitionModeSetup|PreScan #1	false
-Experiment|AcquisitionBlock|AcquisitionModeSetup|ReferenceZ #1	0.000394242
+Experiment|AcquisitionBlock|AcquisitionModeSetup|ReferenceZ #1	0.000417441
 Experiment|AcquisitionBlock|AcquisitionModeSetup|RequestedScanSpeed #1	1
 Experiment|AcquisitionBlock|AcquisitionModeSetup|Rotation #1	0
 Experiment|AcquisitionBlock|AcquisitionModeSetup|RtBinning #1	1
@@ -188,16 +188,16 @@ Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|AiryScanMagnific
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|AiryScanMode #1	Off
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|AiryScanMode #2	Off
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|AiryScanMode #3	Off
-Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|AiryScanTransformationXX #1	2.508305125221364e-310
+Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|AiryScanTransformationXX #1	3.848504613742149e-099
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|AiryScanTransformationXX #2	0
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|AiryScanTransformationXX #3	0
-Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|AiryScanTransformationXY #1	2.5085173247945812e-310
+Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|AiryScanTransformationXY #1	-3.0819828170178243e+105
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|AiryScanTransformationXY #2	0
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|AiryScanTransformationXY #3	0
-Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|AiryScanTransformationYX #1	2.9649868723982438e-315
+Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|AiryScanTransformationYX #1	2.3632317607955865e-310
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|AiryScanTransformationYX #2	0
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|AiryScanTransformationYX #3	0
-Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|AiryScanTransformationYY #1	2.9650278996094744e-315
+Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|AiryScanTransformationYY #1	5.5019150320881215e-320
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|AiryScanTransformationYY #2	0
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|AiryScanTransformationYY #3	0
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|AiryScanVirtualPinholeSize #1	1
@@ -232,9 +232,9 @@ Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|Dye #1	mCherry
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|Dye #2	FITC
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|Folder #1	mCherry
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|Folder #2	FITC
-Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|Id #1	3425368820129054328734884775982148358853
-Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|Id #2	3873093281116475955240063397333388090585
-Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|Id #3	172646138012902040534155943566979854906
+Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|Id #1	2372120164113673147910336344933907251025
+Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|Id #2	1012135751113424026737760344652587956476
+Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|Id #3	3596373331133174604535772172133715851999
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|ImageChannelName #1	Ch2
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|ImageChannelName #2	Ch1
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|ImageChannelName #3	T PMT
@@ -246,8 +246,8 @@ Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|Name #2	PMT
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|Palette #1	LsmDetectorPalette_0_0
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|Palette #2	LsmDetectorPalette_1_0
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|Palette #3	LsmDetectorPalette_1_1
-Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|PinholeDiameter #1	8.9999400000000004e-005
-Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|PinholeDiameter #2	8.9999400000000004e-005
+Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|PinholeDiameter #1	3.1931199999999997e-005
+Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|PinholeDiameter #2	3.1931199999999997e-005
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|PinholeDiameter #3	0
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|PureRatioSource #1	false
 Experiment|AcquisitionBlock|MultiTrackSetup|TrackSetup|Detector|PureRatioSource #2	false
@@ -290,11 +290,11 @@ Experiment|AcquisitionBlock|ZStackSetup|StackBrightnessCorrection #1	false
 Experiment|ExperimentBlockIndex #1	0
 Information|Application|Name #1	AIMApplication
 Information|Application|Version #1	14.0.0.201
-Information|Document|CreationDate #1	2017-07-19T14:21:49
-Information|Document|Name #1	Part2
+Information|Document|CreationDate #1	2018-04-26T15:02:28
+Information|Document|Name #1	Image 2_part2
 Information|Document|Rating #1	0
 Information|Document|SubType #1	Image
-Information|Document|Title #1	Part2
+Information|Document|Title #1	Image 2_part2
 Information|Document|UserName #1	LSM User
 Information|Image|Channel|AcquisitionMode #1	LaserScanningConfocalMicroscopy
 Information|Image|Channel|AcquisitionMode #2	LaserScanningConfocalMicroscopy
@@ -328,9 +328,9 @@ Information|Image|Channel|Fluor #2	FITC
 Information|Image|Channel|Gain #1	821.57142857142844
 Information|Image|Channel|Gain #2	829.87012987012963
 Information|Image|Channel|Gain #3	315
-Information|Image|Channel|Id #1	3425368820129054328734884775982148358853
-Information|Image|Channel|Id #2	3873093281116475955240063397333388090585
-Information|Image|Channel|Id #3	172646138012902040534155943566979854906
+Information|Image|Channel|Id #1	2372120164113673147910336344933907251025
+Information|Image|Channel|Id #2	1012135751113424026737760344652587956476
+Information|Image|Channel|Id #3	3596373331133174604535772172133715851999
 Information|Image|Channel|IlluminationType #1	Epifluorescence
 Information|Image|Channel|IlluminationType #2	Epifluorescence
 Information|Image|Channel|IlluminationType #3	Epifluorescence
@@ -382,8 +382,8 @@ Information|Image|Channel|Offset #3	0
 Information|Image|Channel|PhotonConversionFactor #1	113.6692622872866
 Information|Image|Channel|PhotonConversionFactor #2	113.6692622872866
 Information|Image|Channel|PhotonConversionFactor #3	113.6692622872866
-Information|Image|Channel|PinholeSizeAiry #1	2.3722117647058814
-Information|Image|Channel|PinholeSizeAiry #2	2.82142723880597
+Information|Image|Channel|PinholeSizeAiry #1	0.8416452587592409
+Information|Image|Channel|PinholeSizeAiry #2	1.0010239784683139
 Information|Image|Channel|Polarization|StokesParameter1 #1	1
 Information|Image|Channel|Polarization|StokesParameter1 #2	1
 Information|Image|Channel|Polarization|StokesParameter1 #3	1
@@ -396,16 +396,16 @@ Information|Image|Channel|Polarization|StokesParameter3 #3	0
 Information|Image|Channel|Polarization|StokesParameter4 #1	0
 Information|Image|Channel|Polarization|StokesParameter4 #2	0
 Information|Image|Channel|Polarization|StokesParameter4 #3	0
-Information|Image|Channel|TransformationXX #1	2.508305125221364e-310
+Information|Image|Channel|TransformationXX #1	3.848504613742149e-099
 Information|Image|Channel|TransformationXX #2	0
 Information|Image|Channel|TransformationXX #3	0
-Information|Image|Channel|TransformationXY #1	2.5085173247945812e-310
+Information|Image|Channel|TransformationXY #1	-3.0819828170178243e+105
 Information|Image|Channel|TransformationXY #2	0
 Information|Image|Channel|TransformationXY #3	0
-Information|Image|Channel|TransformationYX #1	2.9649868723982438e-315
+Information|Image|Channel|TransformationYX #1	2.3632317607955865e-310
 Information|Image|Channel|TransformationYX #2	0
 Information|Image|Channel|TransformationYX #3	0
-Information|Image|Channel|TransformationYY #1	2.9650278996094744e-315
+Information|Image|Channel|TransformationYY #1	5.5019150320881215e-320
 Information|Image|Channel|TransformationYY #2	0
 Information|Image|Channel|TransformationYY #3	0
 Information|Image|Channel|VirtualPinholeSize #1	1
@@ -425,14 +425,14 @@ Information|Image|SizeC #1	3
 Information|Image|SizeT #1	30
 Information|Image|SizeX #1	512
 Information|Image|SizeY #1	512
-Information|Image|SizeZ #1	14
+Information|Image|SizeZ #1	13
 Information|Image|S|Scene|Index #1	0
-Information|Image|S|Scene|Position|X #1	-5161.25
-Information|Image|S|Scene|Position|Y #1	1674
-Information|Image|S|Scene|Position|Z #1	394.242
-Information|Image|Track|ChannelRef|Id #1	3425368820129054328734884775982148358853
-Information|Image|Track|ChannelRef|Id #2	3873093281116475955240063397333388090585
-Information|Image|Track|ChannelRef|Id #3	172646138012902040534155943566979854906
+Information|Image|S|Scene|Position|X #1	-1298.5
+Information|Image|S|Scene|Position|Y #1	1233.5
+Information|Image|S|Scene|Position|Z #1	393.441
+Information|Image|Track|ChannelRef|Id #1	2372120164113673147910336344933907251025
+Information|Image|Track|ChannelRef|Id #2	1012135751113424026737760344652587956476
+Information|Image|Track|ChannelRef|Id #3	3596373331133174604535772172133715851999
 Information|Image|Track|Id #1	Track:0
 Information|Image|Track|Id #2	Track:1
 Information|Image|T|BinaryList|AttachmentName #1	TimeStamps
@@ -462,7 +462,7 @@ Information|Instrument|Objective|LensNA #1	0.80000000000000004
 Information|Instrument|Objective|Manufacturer|Model #1	Plan-Apochromat 20x/0.8 M27
 Information|Instrument|Objective|NominalMagnification #1	20
 Information|User|DisplayName #1	LSM User
-Location	D:\Documents\Confocal Files from ORNL\July 19, 2017\Part2.czi
+Location	D:\Documents\Confocal Files from ORNL\April 26 2018\Image 2_part2.czi
 LsmTag #1	0
 LsmTag #2	false
 LsmTag #3	0
